@@ -30,7 +30,7 @@ public:
         else
         {
             fail++;
-            *out << funcName << ": Failure in test # " << pass+fail << " : " << a << " should equal " << b << " !" << endl;
+            *out << funcName << ": Failure in test #" << pass+fail << " : " << a << " should equal " << b << " !" << endl;
         }
         return *this;
     }
@@ -43,7 +43,7 @@ public:
         else
         {
             fail++;
-            *out << funcName << ": Failure in test # " << pass+fail << " : " << a << " should not equal " << b << " !" << endl;
+            *out << funcName << ": Failure in test #" << pass+fail << " : " << a << " should not equal " << b << " !" << endl;
         }
         return *this;
     }
@@ -59,7 +59,7 @@ public:
         else
         {
             fail++;
-            *out << funcName << ": Failure in test # " << pass+fail << " : string value should be " << b << " but is " << os.str() << " !" << endl;
+            *out << funcName << ": Failure in test #" << pass+fail << " : string value should be " << b << " but is " << os.str() << " !" << endl;
         }
         return *this;
     }
@@ -73,7 +73,7 @@ public:
         else
         {
             fail++;
-            *out << funcName << ": Failure in test # " << pass+fail << " : Function should return " << b << " but returned  " << func(a) << " !" << endl;
+            *out << funcName << ": Failure in test #" << pass+fail << " : Function should return " << b << " but returned  " << func(a) << " !" << endl;
         }
         return *this;
     }
