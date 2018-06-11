@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1528732571 source:c:\users\מתן\desktop\matala_9\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+	"TestCase.hpp"
+
+1528734000 c:\users\מתן\desktop\matala_9\testcase.hpp
+	<iostream>
+	<string>
+	<sstream>
+
+1528733845 source:c:\users\מתן\desktop\matala_9\testcase.cpp
+	"TestCase.hpp"
+
